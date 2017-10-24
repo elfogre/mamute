@@ -1001,6 +1001,11 @@
 			</snapshots>
 		</repository>
 		<repository>
+		    <id>maven.restlet.org</id>
+		    <name>maven.restlet.org</name>
+		    <url>http://maven.restlet.org</url>
+		  </repository>
+		<repository>
 			<id>project.local</id>
 			<name>project</name>
 			<url>file:${project.basedir}/local-repo</url>

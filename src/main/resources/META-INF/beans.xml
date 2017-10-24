@@ -7,8 +7,6 @@
        <scan>
        	<exclude name="org.mamute.integration.**"/>
        	<exclude name="org.mamute.model.*"/>
-       	<exclude name="org.mamute.infra.rss.job.OndeTrabalharRSSJob"/>
-       	<exclude name="org.mamute.infra.rss.job.InfoQRSSJob"/>
        	<exclude name="com.google.common.util.concurrent.MoreExecutors$SameThreadExecutorService"/>
        </scan>
 

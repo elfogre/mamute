@@ -8,10 +8,7 @@
 <aside class="sidebar">
 	<c:set var="newses" value="${sidebarNews}" scope="request" />
 	<tags:brutal-include value="homeNewsList" />
-	<tags:brutal-include value="sideBarAd" />
 	<tags:recentTagsUsage tagsUsage="${recentTags}"/>
-	<tags:feed rssUrl="${env.get('jobs.url')}" rssFeed="${jobs}" rssType="jobs"/>
-	<tags:feed rssUrl="${env.get('infoq.url')}" rssFeed="${infoq}" rssType="infoq"/>
 	<c:if test="${relatedQuestions != null }">
 		<tags:relatedQuestions questions="${relatedQuestions}"/>
 	</c:if>
